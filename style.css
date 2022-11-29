@@ -1,0 +1,31 @@
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px
+}
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.topnav a.split:hover {
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+.topnav a.split {
+    float: right;
+    background-color: #333;
+    color: rgb(0, 0, 0)
+}
+.topnav input[type=text] {
+    float: middle;
+    padding: 6px;
+    padding-right: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 35%;
+    font-size: 17px;
+}
